@@ -1,0 +1,25 @@
+---------------------------------------------------------------------------------------------------------------------------
+README to Translate to and from different languages available on translate.google.com using Selenium Web Driver for Firefox
+---------------------------------------------------------------------------------------------------------------------------
+
+================================
+Install the selenium web driver:
+-> pip install -U selenium
+================================
+
+================================================================================================
+Download the latest version of geckodriver from: https://github.com/mozilla/geckodriver/releases
+Extract and paste the driver in the '/usr/bin' or '/usr/local/bin' directory.
+================================================================================================
+
+========
+Command:
+-> python translate.py <input_file_name> <output_file_name>
+
+The name of the input and output file must be according to the source language and target language which are available on Google Translate (translate.google.com).
+
+For example:
+Command to convert text in English to Hindi:
+-> python translate.py english hindi
+
+This command will take input data in English language which is present in the "english" file and the translated data will be stored in "hindi" file.
